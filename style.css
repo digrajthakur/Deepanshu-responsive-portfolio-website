@@ -1,0 +1,10140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: serif;
+    overflow-x: hidden;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2vw;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    border: 1px solid wheat;
+    width: 56vw;
+    font-size: 1.6vw;
+    padding: 1.9vh 4.1vw;
+    border-radius: 10vw;
+    margin-left: 20vw;
+    /* position: fixed; */
+    /* margin-bottom: 6vh; */
+
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(78, 143, 141);
+}
+
+.header ul li a:hover {
+    color: black;
+    border: 1px solid whitesmoke;
+    padding: 1vh 0.1vw;
+    background-color: whitesmoke;
+}
+
+span img {
+    border: 4px solid rgb(223, 220, 220);
+    border-radius: 10vw;
+    width: 10vw;
+    height: auto;
+    transition: 0.6s all ease;
+    margin-left: 43vw;
+    margin-top: 8vh;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+/* .Para */
+
+.para {
+    text-align: center;
+    width: 48vw;
+    margin-top: 6vh;
+    margin-left: 26vw;
+}
+
+.para h1 {
+    font-weight: lighter;
+    font-family: serif;
+}
+
+.para h1 span {
+    font-weight: bold;
+}
+
+/* container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 1vw;
+}
+
+.container div .box {
+    border: 2px solid black;
+    padding: 1.8vh 3vw;
+    border-radius: 2vw;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: 2vw;
+}
+
+.container div .box-1 {
+    border: 2px solid whitesmoke;
+    padding: 2vh 1.8vw;
+    border-radius: 2vw;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(97, 97, 97);
+    font-size: 2vw;
+}
+
+.container div .box-2 {
+    border: 2px solid whitesmoke;
+    padding: 1.8vh 1vw;
+    border-radius: 2vw;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(97, 97, 97);
+    font-size: 2vw;
+}
+
+.container div .box-3 {
+    border: 2px solid whitesmoke;
+    padding: 1.8vh 1vw;
+    border-radius: 2vw;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(97, 97, 97);
+    font-size: 2vw;
+}
+
+/* about */
+
+.about h1 {
+    text-align: center;
+    margin-top: 24vh;
+    font-weight: lighter;
+    font-size: 3vw;
+    font-family: sans-serif;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 7vh;
+    width: 72vw;
+    font-size: 1.5vw;
+    margin-left: 16vw;
+    padding-bottom: 1vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.about p span {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 3vw;
+    margin-top: 14vh;
+}
+
+/* project */
+.project-1 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-1 .left {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-1 .left h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-1 .left p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-1 .left .tool {
+    width: 28vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.project-1 .left .tool span {
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-1 .left a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-1 .left a {
+    color: rgb(57, 93, 92);
+    font-size: 1.5vw;
+    /* color: lightseagreen; */
+}
+
+/* right */
+
+.project-1 .right img {
+    width: 28vw;
+    height: auto;
+    transition: 1s ease;
+}
+
+.project-1 .right img::after {
+    transform: rotate(360deg);
+}
+
+/* project-2 */
+
+.project-2 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-2 .left-2 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-2 .left-2 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-2 .left-2 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-2 .left-2 .tool-2 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-2 .left-2 .tool-2 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-2 .left-2 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-2 .left-2 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.5vw;
+
+}
+
+/* right */
+
+.project-2 .right-2 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-3 */
+
+.project-3 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-3 .left-3 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-3 .left-3 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-3 .left-3 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-3 .left-3 .tool-3 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-3 .left-3 .tool-3 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-3 .left-3 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-3 .left-3 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.5vw;
+
+}
+
+/* right */
+
+.project-3 .right-3 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-4 */
+
+.project-4 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-4 .left-4 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-4 .left-4 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-4 .left-4 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-4 .left-4 .tool-4 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-4 .left-4 .tool-4 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-4 .left-4 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-4 .left-4 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-4 .right-4 img {
+    width: 28vw;
+    height: auto;
+}
+
+/* project-5 */
+
+.project-5 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-5 .left-5 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-5 .left-5 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-5 .left-5 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-5 .left-5 .tool-5 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-5 .left-5 .tool-5 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-5 .left-5 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-5 .left-5 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-5 .right-5 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-6 */
+
+
+.project-6 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-6 .left-6 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-6 .left-6 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-6 .left-6 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-6 .left-6 .tool-6 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-6 .left-6 .tool-6 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-6 .left-6 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-6 .left-6 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-6 .right-6 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-7 */
+
+
+.project-7 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-7 .left-7 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-7 .left-7 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-7 .left-7 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-7 .left-7 .tool-7 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-7 .left-7 .tool-7 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-7 .left-7 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-7 .left-7 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+}
+
+/* right */
+
+.project-7 .right-7 img {
+    width: 28vw;
+    height: auto;
+}
+
+/* project-8 */
+
+
+.project-8 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-8 .left-8 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-8 .left-8 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-8 .left-8 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-8 .left-8 .tool-8 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-8 .left-8 .tool-8 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-8 .left-8 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-8 .left-8 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-8 .right-8 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-9 */
+
+
+.project-9 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-9 .left-9 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-9 .left-9 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-9 .left-9 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-9 .left-9 .tool-9 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-9 .left-9 .tool-9 span {
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-9 .left-9 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-9 .left-9 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-9 .right-9 img {
+    width: 28vw;
+    height: auto;
+}
+
+
+/* project-10 */
+
+
+.project-10 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-10 .left-10 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-10 .left-10 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-10 .left-10 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-10 .left-10 .tool-10 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-10 .left-10 .tool-10 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-10 .left-10 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-10 .left-10 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-10 .right-10 img {
+    width: 28vw;
+    height: auto;
+
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(6deg);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(3deg);
+    }
+
+    /* transform: translateY(1); */
+}
+
+/* project-11 */
+
+
+
+.project-11 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-11 .left-11 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-11 .left-11 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-11 .left-11 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-11 .left-11 .tool-11 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-11 .left-11 .tool-11 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-11 .left-11 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-11 .left-11 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-11 .right-11 img {
+    width: 28vw;
+    height: auto;
+    animation: animate 1.5s linear infinite;
+}
+
+.project-11 .right-11 img {
+    width: 28vw;
+    height: auto;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* skill */
+.skill h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 12vh;
+    font-size: 3vw;
+}
+
+.skill .skill-1 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18vw;
+    margin-top: 8vh;
+    gap: 2vw;
+    width: 60vw;
+}
+
+.skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+    background-color: whitesmoke;
+    padding: 1vh 1vw;
+    color: lightseagreen;
+    border-radius: 0.6vw;
+    font-size: 1.5vw;
+
+}
+
+.skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+    background-color: rgb(255, 238, 238);
+    padding: 1.6vh 1.2vw;
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+/* Experience */
+
+.experience {
+    text-align: center;
+    font-size: 3vw;
+    font-family: sans-serif;
+    margin-top: 16vh;
+    margin-bottom: 10vh;
+}
+
+.vertical-timeline * {
+    -webkit-box-sizing: border-box;
+    font-size: 1.4rem;
+    box-sizing: border-box
+}
+
+.vertical-timeline {
+    width: 95%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2em 0
+}
+
+.vertical-timeline:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.vertical-timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: var(--line-color)
+}
+
+.vertical-timeline.vertical-timeline--one-column-right:before {
+    right: 18px;
+    left: unset
+}
+
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline.vertical-timeline--two-columns {
+        width: 90%
+    }
+
+    .vertical-timeline.vertical-timeline--two-columns:before {
+        left: 50%;
+        margin-left: -2px
+    }
+}
+
+.vertical-timeline-element {
+    position: relative;
+    margin: 2em 0
+}
+
+.vertical-timeline-element>div {
+    min-height: 1px
+}
+
+.vertical-timeline-element:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.vertical-timeline-element:first-child {
+    margin-top: 0
+}
+
+.vertical-timeline-element:last-child {
+    margin-bottom: 0
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline-element {
+        margin: 4em 0
+    }
+
+    .vertical-timeline-element:first-child {
+        margin-top: 0
+    }
+
+    .vertical-timeline-element:last-child {
+        margin-bottom: 0
+    }
+}
+
+.vertical-timeline-element-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05)
+}
+
+.vertical-timeline--one-column-right .vertical-timeline-element-icon {
+    right: 0;
+    left: unset
+}
+
+.vertical-timeline-element-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        margin-left: -30px
+    }
+}
+
+
+
+.vertical-timeline--animate .vertical-timeline-element-icon.is-hidden {
+    visibility: hidden
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    visibility: visible;
+    color: lightseagreen;
+    -webkit-animation: cd-bounce-1 .6s;
+    animation: cd-bounce-1 .6s
+}
+
+@-webkit-keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1.2)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.5);
+        transform: scale(.5)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    margin-left: 60px;
+    background: #fff;
+    border-radius: .25em;
+    padding: 1em;
+    -webkit-box-shadow: 0 3px 0 #ddd;
+    box-shadow: 0 3px 0 #ddd
+}
+
+.vertical-timeline--one-column-right .vertical-timeline-element-content {
+    margin-right: 60px;
+    margin-left: unset
+}
+
+.vertical-timeline-element--no-children .vertical-timeline-element-content {
+    background: 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.vertical-timeline-element-content:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.vertical-timeline-element-content h2 {
+    color: #303e49
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content p {
+    font-size: 13px;
+    font-size: .8125rem;
+    font-weight: 500
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    display: inline-block
+}
+
+.vertical-timeline-element-content p {
+    margin: 1em 0 0;
+    line-height: 1.6
+}
+
+.vertical-timeline-element-subtitle, .vertical-timeline-element-title {
+    margin: 0
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    float: left;
+    padding: .8em 0;
+    opacity: .7
+}
+
+.vertical-timeline-element-content-arrow {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right-color: #fff
+}
+
+.vertical-timeline--one-column-right .vertical-timeline-element-content-arrow {
+    content: "";
+    position: absolute;
+    top: 16px;
+    right: unset;
+    left: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-left-color: #fff
+}
+
+.vertical-timeline--one-column-right .vertical-timeline-element-content:before {
+    left: 100%;
+    border-left: 7px solid #fff;
+    border-right: unset
+}
+
+.vertical-timeline-element--no-children .vertical-timeline-element-content-arrow, .vertical-timeline-element--no-children .vertical-timeline-element-content:before {
+    display: none
+}
+
+@media only screen and (min-width: 768px) {
+    .vertical-timeline-element-content h2 {
+        font-size: 20px;
+        font-size: 1.25rem
+    }
+
+    .vertical-timeline-element-content p {
+        font-size: 16px;
+        font-size: 1.45rem
+    }
+
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+        font-size: 14px;
+        font-size: .875rem
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns .vertical-timeline-element-content {
+        margin-left: 0;
+        padding: 1.5em;
+        width: 44%
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
+        top: 24px;
+        left: 100%;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        position: absolute;
+        width: 100%;
+        left: 124%;
+        top: 6px;
+        font-size: 16px;
+        font-size: 1.69rem
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content {
+        float: right
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content-arrow, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content-arrow {
+        top: 24px;
+        left: auto;
+        right: 100%;
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    .vertical-timeline--one-column-right .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content-arrow, .vertical-timeline--one-column-right .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content-arrow {
+        top: 24px;
+        left: 100%;
+        right: auto;
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+        left: auto;
+        right: 124%;
+        text-align: right
+    }
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
+    visibility: hidden
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2 .6s;
+    animation: cd-bounce-2 .6s
+}
+
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content.bounce-in, .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content.bounce-in {
+        -webkit-animation: cd-bounce-2-inverse .6s;
+        animation: cd-bounce-2-inverse .6s
+    }
+}
+
+@media only screen and (max-width: 1169px) {
+    .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+        visibility: visible;
+        -webkit-animation: cd-bounce-2-inverse .6s;
+        animation: cd-bounce-2-inverse .6s
+    }
+}
+
+@-webkit-keyframes cd-bounce-2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(20px)
+    }
+
+    to {
+        -webkit-transform: translateX(0)
+    }
+}
+
+@keyframes cd-bounce-2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes cd-bounce-2-inverse {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-20px)
+    }
+
+    to {
+        -webkit-transform: translateX(0)
+    }
+}
+
+@keyframes cd-bounce-2-inverse {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px)
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+/* contact */
+
+.contact h5 {
+    font-size: 3vw;
+    text-align: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+}
+
+.contact p {
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 6vh;
+    font-family: sans-serif;
+}
+
+.contact p a {
+    color: lightseagreen;
+}
+
+.form {
+    /* border: 1px solid gray; */
+    width: 43vw;
+    margin-left: 27vw;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.form .form-1 {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.form .form-1 #name {
+    width: 40vw;
+    padding-bottom: 2vw;
+    /* height: 7vh; */
+    border-radius: 0.4vw;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: left;
+    padding-top: 1vh;
+    padding-left: 0.3vw;
+    margin-top: 2vh;
+}
+
+.form .form-1 .input {
+    width: 40vw;
+    padding-left: 0.3vw;
+    /* height: 7vh; */
+    padding-bottom: 2vw;
+    border-radius: 0.4vw;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: left;
+    margin-top: 2vh;
+    padding-top: 1vh;
+
+}
+
+.form .form-1 .input-1 {
+    width: 40vw;
+    padding-left: 0.3vw;
+    /* height: 18vh; */
+    padding-bottom: 18vh;
+    padding-top: 1vh;
+    border-radius: 0.4vw;
+    border: 1px solid rgb(185, 185, 185);
+    text-align: left;
+    margin-top: 2vh;
+}
+
+.form .form-1 button {
+    border: 1px solid grey;
+    /* width: 10vw; */
+    padding: 0.7vw 1.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.4vw;
+    margin-left: 0vw;
+    border-radius: 2vw;
+    transition: 0.7s ease;
+}
+
+.form .form-1 button:hover {
+    transform: scale(1.1);
+    background-color: #303e49;
+    color: whitesmoke;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: rgb(95, 95, 95);
+    margin-top: 10vh;
+    font-family: sans-serif;
+}
+
+/* dark-mode */
+.dark-mode {
+    /* background-color: black; */
+    background-color: hsl(240, 69%, 5%);
+    /* background-color: #303e49; */
+    color: white;
+    /* border: 2px solid whitesmoke; */
+    padding: 1.2vh 0.8vw;
+    border-radius: 10vw;
+    font-size: 2vw;
+    position: sticky;
+    left: 1.4vw;
+    box-shadow: 2px 4px grey;
+    bottom: 3.2vh;
+    /* width: 3vw; */
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 1vw;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+    
+}
+
+
+/* 2 media queries */
+
+@media (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 4vw;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        width: 99vw;
+        font-size: 5vw;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 1vw;
+    }
+
+    /* span img */
+    span img {
+        border-radius: 36vw;
+        width: 56vw;
+        height: auto;
+        margin-left: 20vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 90vw;
+        margin-top: 0vh;
+        margin-left: 3.3vw;
+        font-size: 3vw;
+    }
+
+    .para h1 {
+        margin-top: 8vh;
+        font-size: 5vw;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .para h1 span {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    /* container */
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+        gap: 1vw;
+    }
+
+    .container div .box {
+        padding: 1.7vh 3.2vw;
+        font-weight: bold;
+        font-size: 4.2vw;
+    }
+
+    .container div .box-1 {
+        padding: 1.9vh 3.5vw;
+        font-size: 3.8vw;
+        font-weight: bold;
+
+    }
+
+    .container div .box-2 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 1.8vw;
+        font-size: 5.2vw;
+        font-weight: bold;
+    }
+
+    .container div .box-3 {
+        padding: 1.4vh 1.8vw;
+        font-size: 5.6vw;
+        font-weight: bold;
+    }
+
+    /* about */
+
+    .about h1 {
+        margin-top: 12vh;
+        font-size: 8vw;
+        font-family: serif;
+    }
+
+    .about p {
+        text-align: left;
+        margin-top: 7vh;
+        width: 84vw;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 4.6vw;
+        margin-left: 8vw;
+        font-family: serif;
+    }
+
+    .about p span {
+        font-weight: bold;
+    }
+
+    .about p u {
+        font-family: serif;
+        color: rgb(3, 116, 3);
+        font-size: 4.6vw;
+    }
+
+    /* project  heading*/
+    .project h1 {
+        font-size: 8vw;
+        font-family: serif;
+        margin-bottom: 10vh;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-9 .right-9 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.8vh;
+    }
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 5.1vh;
+    }
+
+
+    /* skill */
+
+    .skill h3 {
+        /* text-align: center; */
+        /* font-weight: lighter; */
+        font-family: serif;
+        margin-top: 14vh;
+        font-size: 9vw;
+        margin-bottom: 10vh;
+    }
+
+    .skill .skill-1 {
+        /* justify-content: center; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        margin-left: 1vw;
+        margin-top: 8vh;
+        gap: 2vw;
+        width: 96vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+        background-color: whitesmoke;
+        color: lightseagreen;
+        padding: 1vh 1vw;
+        border-radius: 0.6vw;
+        font-size: 4vw;
+
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 8.5vw;
+        font-family: serif;
+        margin-top: 18vh;
+        margin-bottom: 12vh;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 8.6vw;
+
+        font-family: serif;
+
+    }
+
+    .contact p {
+        font-size: 5.79vw;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .contact p a {
+        color: lightseagreen;
+    }
+
+
+    /* form */
+
+    .form {
+        border: 2px solid whitesmoke;
+        width: 90vw;
+        margin-left: 1vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form .form-1 #name {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input-1 {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 button {
+        padding: 1.3vw 3vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 6vw;
+        font-family: serif;
+        border-radius: 20vw;
+    }
+
+    /* footer */
+    footer {
+        /* text-align: center; */
+        /* color: rgb(95, 95, 95); */
+        /* margin-top: 10vh; */
+        font-family: serif;
+        font-size: 5.2vw;
+    }
+
+    /* dark-mode */
+    .dark-mode {
+        background-color: hsl(240, 69%, 5%);
+        color: white;
+        padding: 1vh 1vw;
+        border-radius: 10vw;
+        font-size: 8vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 3.2vh;
+    }
+
+
+
+}
+
+/* 3 media queries */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 3.9vw;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        border: 3px solid whitesmoke;
+        width: 88vw;
+        font-size: 3.1vw;
+        padding: 1.9vh 4.1vw;
+        border-radius: 10vw;
+        margin-left: 6vw;
+    }
+
+
+    span img {
+        border-radius: 20vw;
+        width: 27vw;
+        margin-left: 37.8vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 79vw;
+        margin-top: 3vh;
+        margin-left: 11vw;
+    }
+
+    .para h1 {
+        font-family: serif;
+        font-size: 3.8vh;
+        margin-top: 6vh;
+    }
+
+    /* container */
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.5vh 2vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 2vw;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-2 {
+        padding: 1.3vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    .container div .box-3 {
+        padding: 1.3vh 1vw;
+
+        font-size: 3.5vw;
+    }
+
+    /* about */
+
+
+    .about h1 {
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 6.6vw;
+        font-family: serif;
+    }
+
+    .about p {
+        margin-top: 8vh;
+        width: 90vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+
+    }
+
+
+    h1 {
+        font-family: serif;
+        font-size: 6vw;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 13.6vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 13.4vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 2.91vw;
+    }
+
+    /* right */
+    .project-9 .right-9 img {
+        width: 36vw;
+        height: 70vh;
+        margin-top: 19vh;
+    }
+
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: serif;
+        margin-top: 12vh;
+        font-size: 5.5vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+
+/* 4 media queries */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 3.9vw;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        border: 3px solid whitesmoke;
+        width: 88vw;
+        font-size: 3.1vw;
+        padding: 1.9vh 4.1vw;
+        border-radius: 10vw;
+        margin-left: 6vw;
+    }
+
+
+    span img {
+        border-radius: 20vw;
+        width: 27vw;
+        margin-left: 37.8vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 79vw;
+        margin-top: 3vh;
+        margin-left: 11vw;
+    }
+
+    .para h1 {
+        font-family: serif;
+        font-size: 3.8vh;
+        margin-top: 6vh;
+    }
+
+    /* container */
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.5vh 2vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 2vw;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-2 {
+        padding: 1.3vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    .container div .box-3 {
+        padding: 1.3vh 1vw;
+
+        font-size: 3.5vw;
+    }
+
+    /* about */
+
+
+    .about h1 {
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 6.6vw;
+        font-family: serif;
+    }
+
+    .about p {
+        margin-top: 8vh;
+        width: 90vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+
+    }
+
+
+    h1 {
+        font-family: serif;
+        font-size: 6vw;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 13.6vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 13.4vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+    .project-9 .right-9 img {
+        width: 36vw;
+        height: 80vh;
+        margin-top: 20vh;
+    }
+
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: serif;
+        margin-top: 12vh;
+        font-size: 5.5vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+
+
+/* 5 media queries */
+
+/* @media  only screen and (min-width: 1201px) and (max-width: 1280px) { */
+@media (min-width: 1281px) and (max-width: 1536px) {
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 2.7vw;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        border: 3px solid whitesmoke;
+        width: 78vw;
+        font-size: 3vw;
+        margin-left: 12vw;
+    }
+
+
+
+    span img {
+        border-radius: 20vw;
+        width: 20vw;
+        margin-top: 10vh;
+        margin-left: 40vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 70vw;
+        margin-top: 3vh;
+        margin-left: 15vw;
+    }
+
+    .para h1 {
+        font-family: sans-serif;
+        font-size: 5vh;
+    }
+
+    /* container */
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.5vh 2vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 2vw;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-2 {
+        padding: 1.3vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    .container div .box-3 {
+        padding: 1.3vh 1vw;
+
+        font-size: 3.5vw;
+    }
+
+    /* about */
+
+
+    .about h1 {
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 5.6vw;
+        font-family: sans-serif;
+    }
+
+    .about p {
+        margin-top: 8vh;
+        width: 90vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+
+    }
+
+
+    h1 {
+        font-family: serif;
+        font-size: 6vw;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 13.6vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 13.4vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+    .project-9 .right-9 img {
+        width: 36vw;
+        height: 90vh;
+        margin-top: 28vh;
+    }
+
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: serif;
+        margin-top: 12vh;
+        font-size: 5.5vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+@media (min-width: 1536px) and (max-width: 1836px) {
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 2.7vw;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        border: 3px solid whitesmoke;
+        width: 78vw;
+        font-size: 3vw;
+        margin-left: 12vw;
+    }
+
+
+
+    span img {
+        border-radius: 20vw;
+        width: 20vw;
+        margin-top: 10vh;
+        margin-left: 40vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 70vw;
+        margin-top: 3vh;
+        margin-left: 15vw;
+    }
+
+    .para h1 {
+        font-family: sans-serif;
+        font-size: 5vh;
+    }
+
+    /* container */
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.5vh 2vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 2vw;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-2 {
+        padding: 1.3vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    .container div .box-3 {
+        padding: 1.3vh 1vw;
+
+        font-size: 3.5vw;
+    }
+
+    /* about */
+
+
+    .about h1 {
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 5.6vw;
+        font-family: sans-serif;
+    }
+
+    .about p {
+        margin-top: 8vh;
+        width: 90vw;
+        font-size: 3vw;
+        margin-left: 6vw;
+
+    }
+
+
+    h1 {
+        font-family: serif;
+        font-size: 6vw;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 13.6vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 13.4vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+    .project-9 .right-9 img {
+        width: 36vw;
+        height: 30vh;
+        margin-top: 12vh;
+    }
+
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: serif;
+        margin-top: 12vh;
+        font-size: 5.5vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+
+@media (min-width: 1836px) and (max-width: 2024px) {
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 2.7vw;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        border: 3px solid whitesmoke;
+        width: 78vw;
+        font-size: 3vw;
+        margin-left: 12vw;
+    }
+
+
+
+    span img {
+        border-radius: 20vw;
+        width: 20vw;
+        margin-top: 10vh;
+        margin-left: 40vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 70vw;
+        margin-top: 3vh;
+        margin-left: 15vw;
+    }
+
+    .para h1 {
+        font-family: sans-serif;
+        font-size: 2.3vw;
+        margin-bottom: 24vh;
+    }
+
+    /* container */
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.5vh 2vw;
+        color: white;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 2vw;
+        font-size: 3.4vw;
+    }
+
+    .container div .box-2 {
+        padding: 1.3vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        font-size: 3.5vw;
+    }
+
+    .container div .box-3 {
+        padding: 1.3vh 1vw;
+
+        font-size: 3.5vw;
+    }
+
+    /* about */
+
+
+    .about h1 {
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 4vw;
+        margin-bottom: 18vh;
+        font-family: sans-serif;
+    }
+
+    .about p {
+        margin-top: 8vh;
+        width: 90vw;
+        font-size: 2.4vw;
+        margin-left: 6vw;
+
+    }
+
+
+    h1 {
+        font-family: sans-serif;
+        margin-bottom: 24vh;
+        font-size: 4vw;
+    }
+
+    /* project */
+    .project-1 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 10vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 13.6vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 13.4vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+    .project-9 .right-9 img {
+        width: 34vw;
+        height: 80vh;
+        margin-top: 12vh;
+    }
+
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 0vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 3.8vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.2vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: serif;
+        margin-top: 12vh;
+        font-size: 5.5vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 5.5vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 10vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+@media (min-width: 2024px) and (max-width: 2400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+        overflow-x: hidden;
+    }
+
+    .header ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 2vw;
+        flex-wrap: wrap;
+        margin-top: 6vh;
+        border: 1px solid wheat;
+        width: 56vw;
+        font-size: 1.6vw;
+        padding: 1.9vh 4.1vw;
+        border-radius: 10vw;
+        margin-left: 20vw;
+        /* position: fixed; */
+        /* margin-bottom: 6vh; */
+
+    }
+
+    .header ul li a {
+        text-decoration: none;
+        color: rgb(78, 143, 141);
+    }
+
+    .header ul li a:hover {
+        color: black;
+        border: 1px solid whitesmoke;
+        padding: 1vh 0.1vw;
+        background-color: whitesmoke;
+    }
+
+    span img {
+        border: 4px solid rgb(223, 220, 220);
+        border-radius: 10vw;
+        width: 10vw;
+        height: auto;
+        transition: 0.6s all ease;
+        margin-left: 43vw;
+        margin-top: 8vh;
+    }
+
+    img:hover {
+        transform: rotate(360deg);
+    }
+
+    /* .Para */
+
+    .para {
+        text-align: center;
+        width: 48vw;
+        margin-top: 6vh;
+        margin-left: 26vw;
+    }
+
+    .para h1 {
+        font-weight: lighter;
+        font-family: serif;
+        font-size: 3.3rem;
+
+    }
+
+    .para h1 span {
+        font-weight: bold;
+    }
+
+    /* container */
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 1vw;
+    }
+
+    .container div .box {
+        border: 2px solid black;
+        padding: 1.8vh 3vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        background-color: black;
+        font-size: 2vw;
+    }
+
+    .container div .box-1 {
+        border: 2px solid whitesmoke;
+        padding: 2vh 1.8vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(97, 97, 97);
+        font-size: 2vw;
+    }
+
+    .container div .box-2 {
+        border: 2px solid whitesmoke;
+        padding: 1.8vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(97, 97, 97);
+        font-size: 2vw;
+    }
+
+    .container div .box-3 {
+        border: 2px solid whitesmoke;
+        padding: 1.8vh 1vw;
+        border-radius: 2vw;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(97, 97, 97);
+        font-size: 2vw;
+    }
+
+    /* about */
+
+    .about h1 {
+        text-align: center;
+        margin-top: 24vh;
+        font-weight: lighter;
+        font-size: 3vw;
+        font-family: sans-serif;
+    }
+
+    .about p {
+        text-align: center;
+        margin-top: 7vh;
+        width: 72vw;
+        font-size: 1.5vw;
+        margin-left: 16vw;
+        padding-bottom: 1vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+
+    .about p span {
+        font-weight: bold;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: lighter;
+        font-family: sans-serif;
+        font-size: 3vw;
+        margin-top: 14vh;
+    }
+
+    /* project */
+    .project-1 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-1 .left p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 28vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 1.5vw;
+        /* color: lightseagreen; */
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 28vw;
+        height: auto;
+        transition: 1s ease;
+    }
+
+    .project-1 .right img::after {
+        transform: rotate(360deg);
+    }
+
+    /* project-2 */
+
+    .project-2 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-2 .left-2 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.5vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-3 */
+
+    .project-3 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-3 .left-3 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-3 .left-3 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.5vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-4 */
+
+    .project-4 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-4 .left-4 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-4 .left-4 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 28vw;
+        height: auto;
+    }
+
+    /* project-5 */
+
+    .project-5 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-5 .left-5 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-5 .left-5 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-6 */
+
+
+    .project-6 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-6 .left-6 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-6 .left-6 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-7 */
+
+
+    .project-7 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-7 .left-7 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-7 .left-7 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 28vw;
+        height: auto;
+    }
+
+    /* project-8 */
+
+
+    .project-8 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-8 .left-8 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-8 .left-8 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-8 .left-8 .tool-8 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-9 */
+
+
+    .project-9 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-9 .left-9 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-9 .left-9 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-9 .right-9 img {
+        width: 28vw;
+        height: auto;
+    }
+
+
+    /* project-10 */
+
+
+    .project-10 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-10 .left-10 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-10 .left-10 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-10 .left-10 .tool-10 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 28vw;
+        height: auto;
+
+        animation: rotate 1s linear infinite;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(6deg);
+        }
+
+        50% {
+            transform: rotate(3deg);
+        }
+
+        100% {
+            transform: rotate(3deg);
+        }
+
+        /* transform: translateY(1); */
+    }
+
+    /* project-11 */
+
+
+
+    .project-11 {
+        display: flex;
+        border: 2px solid black;
+        width: 58vw;
+        margin-top: 6vh;
+        margin-left: 18vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        font-size: 2vw;
+        margin-left: 0.6vw;
+        width: 29vw;
+    }
+
+    .project-11 .left-11 h2 {
+        font-size: 2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: sans-serif;
+    }
+
+    .project-11 .left-11 p {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 25vw;
+        font-weight: lighter;
+        font-family: sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .project-11 .left-11 .tool-11 span {
+
+        border: 1px solid rgb(36, 36, 36);
+        padding: 0.5vh 1vw;
+        border-radius: 2vw;
+        font-size: 1.4vw;
+        color: white;
+        background-color: rgb(36, 36, 36);
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 1.6vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 28vw;
+        height: auto;
+        animation: animate 1.5s linear infinite;
+    }
+
+    .project-11 .right-11 img {
+        width: 28vw;
+        height: auto;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(0.7);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    /* skill */
+
+    .skill h3 {
+        font-family: sans-serif;
+        margin-top: 12vh;
+        font-size: 4vw;
+    }
+
+    .skill .skill-1 {
+        flex-wrap: wrap;
+        margin-left: 5.5vw;
+        margin-top: 10vh;
+        width: 89vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+
+        font-size: 2.6vw;
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 3.5vw;
+        font-family: sans-serif;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 3.6vw;
+        margin-bottom: 18vh;
+        font-family: sans-serif;
+    }
+
+    .contact p {
+        font-size: 2.8vw;
+        font-family: sans-serif;
+        width: 77vw;
+        margin-left: 10vw;
+    }
+
+    /* form */
+
+    .form {
+        width: 86vw;
+        margin-left: 3vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        margin-top: 30vh;
+        border: 3px solid whitesmoke;
+    }
+
+    .form .form-1 #name {
+        width: 40vw;
+        padding-bottom: 4.6vw;
+        padding-left: 0.5vw;
+        font-size: 2.4vw;
+    }
+
+    .form .form-1 .input {
+        width: 40vw;
+        font-size: 2.4vw;
+        padding-left: 0.5vw;
+        padding-bottom: 4.6vw;
+    }
+
+    .form .form-1 .input-1 {
+        width: 80vw;
+        padding-left: 0.9vw;
+        font-size: 2.4vw;
+
+    }
+
+    .form .form-1 button {
+        padding: 1vw 3vw;
+        margin-top: 2.3vw;
+        margin-bottom: 2vw;
+        font-size: 3.2vw;
+        border-radius: 20vw;
+    }
+
+
+
+    /* footer */
+
+    footer {
+        font-family: sans-serif;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* dark-mode */
+    .dark-mode {
+        padding: 1vh 0.9vw;
+        font-size: 2.9vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 1.9vh;
+    }
+}
+
+
+@media (min-width: 2401px) and (max-width: 2700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 4vw;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        width: 99vw;
+        font-size: 5vw;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 1vw;
+    }
+
+    /* span img */
+    span img {
+        border-radius: 36vw;
+        width: 56vw;
+        height: auto;
+        margin-left: 20vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 90vw;
+        margin-top: 0vh;
+        margin-left: 3.3vw;
+        font-size: 3vw;
+    }
+
+    .para h1 {
+        margin-top: 8vh;
+        font-size: 4vw;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .para h1 span {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    /* container */
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+        gap: 1vw;
+    }
+
+    .container div .box {
+        padding: 1vh 2.4vw;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
+    .container div .box-1 {
+        padding: 1.9vh 3.5vw;
+        font-size: 3.8vw;
+        font-weight: bold;
+
+    }
+
+    .container div .box-2 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 1.8vw;
+        font-size: 5.2vw;
+        font-weight: bold;
+    }
+
+    .container div .box-3 {
+        padding: 1.4vh 1.8vw;
+        font-size: 5.6vw;
+        font-weight: bold;
+    }
+
+    /* about */
+
+    .about h1 {
+        margin-top: 12vh;
+        font-size: 4.5vw;
+        font-family: sans-serif;
+    }
+
+    .about p {
+        text-align: left;
+        margin-top: 7vh;
+        width: 84vw;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 4vw;
+        margin-left: 8vw;
+        font-family: serif;
+    }
+
+    .about p span {
+        font-weight: bold;
+    }
+
+    .about p u {
+        font-family: serif;
+        color: rgb(3, 116, 3);
+        font-size: 4.6vw;
+    }
+
+    /* project  heading*/
+    .project h1 {
+        font-size: 4.6vw;
+        font-family: serif;
+        margin-bottom: 10vh;
+    }
+
+    /* project */
+    .project-1 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.3w;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-9 .right-9 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.8vh;
+    }
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 4.5vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.3vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 5.1vh;
+    }
+
+
+    /* skill */
+
+    .skill h3 {
+        /* text-align: center; */
+        /* font-weight: lighter; */
+        font-family: sans-serif;
+        margin-top: 14vh;
+        font-size: 4.6vw;
+        margin-bottom: 10vh;
+    }
+
+    .skill .skill-1 {
+        /* justify-content: center; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        margin-left: 1vw;
+        margin-top: 8vh;
+        gap: 2vw;
+        width: 96vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+        background-color: whitesmoke;
+        color: lightseagreen;
+        padding: 1vh 1vw;
+        border-radius: 0.6vw;
+        font-size: 3vw;
+
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 4.6vw;
+        font-family: serif;
+        margin-top: 18vh;
+        margin-bottom: 12vh;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 4.6vw;
+        font-family: serif;
+    }
+
+    .contact p {
+        font-size: 4.6vw;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .contact p a {
+        color: lightseagreen;
+    }
+
+
+    /* form */
+
+    .form {
+        border: 2px solid whitesmoke;
+        width: 90vw;
+        margin-left: 1vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form .form-1 #name {
+        width: 87vw;
+        font-size: 4.1vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input {
+        width: 87vw;
+        font-size: 4.1vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input-1 {
+        width: 87vw;
+        font-size: 4.1vw;
+        font-family: serif;
+    }
+
+    .form .form-1 button {
+        padding: 1.3vw 3vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 4vw;
+        font-family: serif;
+        border-radius: 20vw;
+    }
+
+    /* footer */
+    footer {
+        font-family: serif;
+        font-size: 4.2vw;
+    }
+
+    /* dark-mode */
+    .dark-mode {
+        background-color: hsl(240, 69%, 5%);
+        color: white;
+        padding: 1vh 0.2vw;
+        border-radius: 10vw;
+        font-size: 3vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 3.2vh;
+    }
+}
+
+/* media query */
+
+
+@media (min-width: 2700px) and (max-width: 3000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        width: 100%;
+        height: 100vh;
+        font-family: serif;
+    }
+
+    .header ul {
+        gap: 4vw;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        width: 99vw;
+        font-size: 5vw;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 1vw;
+    }
+
+    /* span img */
+    span img {
+        border-radius: 36vw;
+        width: 56vw;
+        height: auto;
+        margin-left: 20vw;
+    }
+
+    /* .Para */
+
+    .para {
+        width: 90vw;
+        margin-top: 0vh;
+        margin-left: 3.3vw;
+        font-size: 3vw;
+    }
+
+    .para h1 {
+        margin-top: 8vh;
+        font-size: 5vw;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .para h1 span {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    /* container */
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+        gap: 1vw;
+    }
+
+    .container div .box {
+        padding: 1.7vh 3.2vw;
+        font-weight: bold;
+        font-size: 4.2vw;
+    }
+
+    .container div .box-1 {
+        padding: 1.9vh 3.5vw;
+        font-size: 3.8vw;
+        font-weight: bold;
+
+    }
+
+    .container div .box-2 {
+        border: 2px solid whitesmoke;
+        padding: 1.5vh 1.8vw;
+        font-size: 5.2vw;
+        font-weight: bold;
+    }
+
+    .container div .box-3 {
+        padding: 1.4vh 1.8vw;
+        font-size: 5.6vw;
+        font-weight: bold;
+    }
+
+    /* about */
+
+    .about h1 {
+        margin-top: 12vh;
+        font-size: 8vw;
+        font-family: serif;
+    }
+
+    .about p {
+        text-align: left;
+        margin-top: 7vh;
+        width: 84vw;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 4.6vw;
+        margin-left: 8vw;
+        font-family: serif;
+    }
+
+    .about p span {
+        font-weight: bold;
+    }
+
+    .about p u {
+        font-family: serif;
+        color: rgb(3, 116, 3);
+        font-size: 4.6vw;
+    }
+
+    /* project  heading*/
+    .project h1 {
+        font-size: 8vw;
+        font-family: serif;
+        margin-bottom: 10vh;
+    }
+
+    /* project */
+    .project-1 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-1 .left {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-1 .left h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-1 .left p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-1 .left .tool {
+        width: 78vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-1 .left .tool span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-1 .left a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-1 .right img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-2 */
+    .project-2 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-2 .left-2 {
+        margin-left: 0.6vw;
+        width: 50vw;
+    }
+
+    .project-2 .left-2 h2 {
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-2 .left-2 p {
+        width: 46vw;
+        font-size: 3.8vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-2 .left-2 .tool-2 {
+        width: 86vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-2 .left-2 .tool-2 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3vw;
+
+    }
+
+    .project-2 .left-2 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.2vw;
+
+    }
+
+    /* right */
+
+    .project-2 .right-2 img {
+        width: 42.2vw;
+        height: auto;
+        margin-top: 6vh;
+    }
+
+    /* project-3 */
+    .project-3 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-3 .left-3 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-3 .left-3 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-3 .left-3 p {
+        width: 49vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-3 .left-3 .tool-3 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-3 .left-3 .tool-3 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-3 .left-3 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-3 .right-3 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+
+    /* project-4 */
+    .project-4 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-4 .left-4 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-4 .left-4 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-4 .left-4 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-4 .left-4 .tool-4 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-4 .left-4 .tool-4 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    .project-4 .left-4 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-4 .right-4 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 5.6vh;
+    }
+
+
+    /* project-5 */
+    .project-5 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-5 .left-5 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-5 .left-5 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-5 .left-5 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-5 .left-5 .tool-5 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-5 .left-5 .tool-5 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-5 .left-5 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-5 .left-5 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.6vw;
+
+    }
+
+    /* right */
+
+    .project-5 .right-5 img {
+        width: 43.1vw;
+        height: auto;
+        margin-top: 8vh;
+    }
+
+
+    /* project-6 */
+    .project-6 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-6 .left-6 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-6 .left-6 h2 {
+        width: 62vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-6 .left-6 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-6 .left-6 .tool-6 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-6 .left-6 .tool-6 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-6 .left-6 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-6 .left-6 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-6 .right-6 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+    /* project-7 */
+    .project-7 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-7 .left-7 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-7 .left-7 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-7 .left-7 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-7 .left-7 .tool-7 {
+        width: 81vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-7 .left-7 .tool-7 span {
+
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-7 .left-7 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-7 .left-7 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-7 .right-7 img {
+        width: 43.3vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-8 */
+    .project-8 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-8 .left-8 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-8 .left-8 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-8 .left-8 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-8 .left-8 .tool-8 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-8 .left-8 .tool-8 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-8 .left-8 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-8 .left-8 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-8 .right-8 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.7vh;
+    }
+
+    /* project-9 */
+    .project-9 {
+
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-9 .left-9 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-9 .left-9 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-9 .left-9 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-9 .left-9 .tool-9 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-9 .left-9 .tool-9 span {
+        /* margin-top: 390vh; */
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-9 .left-9 a span {
+        color: rgb(57, 93, 92);
+        font-size: 3.8vw;
+
+    }
+
+    .project-9 .left-9 a {
+        color: rgb(57, 93, 92);
+        font-size: 4vw;
+
+    }
+
+    /* right */
+
+    .project-9 .right-9 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.8vh;
+    }
+
+
+    /* project-10 */
+    .project-10 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-10 .left-10 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-10 .left-10 h2 {
+        width: 82vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-10 .left-10 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-10 .left-10 .tool-10 {
+        width: 51vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-10 .left-10 .tool-10 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-10 .left-10 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.8vw;
+
+    }
+
+    .project-10 .left-10 a {
+        color: rgb(57, 93, 92);
+        font-size: 5vw;
+
+    }
+
+    /* right */
+
+    .project-10 .right-10 img {
+        width: 43.2vw;
+        height: auto;
+        margin-top: 6.3vh;
+    }
+
+
+    /* project-11 */
+    .project-11 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-11 .left-11 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-11 .left-11 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-11 .left-11 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-11 .left-11 .tool-11 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-11 .left-11 .tool-11 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-11 .left-11 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-11 .left-11 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-11 .right-11 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 5.1vh;
+    }
+
+
+    /* skill */
+
+    .skill h3 {
+        /* text-align: center; */
+        /* font-weight: lighter; */
+        font-family: serif;
+        margin-top: 14vh;
+        font-size: 9vw;
+        margin-bottom: 10vh;
+    }
+
+    .skill .skill-1 {
+        /* justify-content: center; */
+        /* display: flex; */
+        flex-wrap: wrap;
+        margin-left: 1vw;
+        margin-top: 8vh;
+        gap: 2vw;
+        width: 96vw;
+    }
+
+    .skill .skill-1 .skills-1, .skills-2, .skills-3, .skills-4, .skills-5, .skills-6, .skills-7, .skills-8, .skills-9, .skills-10, .skills-11, .skills-12, .skills-13, .skills-14, .skills-15, .skills-16, .skills-17 {
+        background-color: whitesmoke;
+        color: lightseagreen;
+        padding: 1vh 1vw;
+        border-radius: 0.6vw;
+        font-size: 4vw;
+
+    }
+
+    .skill .skill-1 .skills-1:hover, .skills-2:hover, .skills-3:hover, .skills-4:hover, .skills-5:hover, .skills-6:hover, .skills-7:hover, .skills-8:hover, .skills-9:hover, .skills-10:hover, .skills-11:hover, .skills-12:hover, .skills-13:hover, .skills-14:hover, .skills-15:hover, .skills-16:hover, .skills-17:hover {
+        background-color: rgb(255, 244, 244);
+        color: lightseagreen;
+        padding: 1.6vh 1.2vw;
+        font-weight: bold;
+    }
+
+    /* Experience */
+
+    .experience {
+        font-size: 8.5vw;
+        font-family: serif;
+        margin-top: 18vh;
+        margin-bottom: 12vh;
+    }
+
+    /* contact */
+
+    .contact h5 {
+        font-size: 8.6vw;
+
+        font-family: serif;
+
+    }
+
+    .contact p {
+        font-size: 5.79vw;
+        text-align: center;
+        font-family: serif;
+    }
+
+    .contact p a {
+        color: lightseagreen;
+    }
+
+
+    /* form */
+
+    .form {
+        border: 2px solid whitesmoke;
+        width: 90vw;
+        margin-left: 1vw;
+        flex-wrap: wrap;
+    }
+
+    .form .form-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form .form-1 #name {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 .input-1 {
+        width: 87vw;
+        font-size: 4.5vw;
+        font-family: serif;
+    }
+
+    .form .form-1 button {
+        padding: 1.3vw 3vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 6vw;
+        font-family: serif;
+        border-radius: 20vw;
+    }
+
+    /* footer */
+    footer {
+        /* text-align: center; */
+        /* color: rgb(95, 95, 95); */
+        /* margin-top: 10vh; */
+        font-family: serif;
+        font-size: 5.2vw;
+    }
+
+    /* dark-mode */
+    .dark-mode {
+        background-color: hsl(240, 69%, 5%);
+        color: white;
+        padding: 1vh 1vw;
+        border-radius: 10vw;
+        font-size: 8vw;
+        position: sticky;
+        left: 1.4vw;
+        box-shadow: 2px 4px grey;
+        bottom: 3.2vh;
+    }
+
+
+}
