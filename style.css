@@ -5271,28 +5271,20 @@ footer {
     }
 }
 
-body {
-    width: 100%;
-    height: 100vh;
-    font-family: serif;
-    overflow-x: hidden;
+.header{
+    position: fixed;
 }
-
-.header ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2vw;
-    flex-wrap: wrap;
-    margin-top: 6vh;
-    border: 1px solid wheat;
-    width: 56vw;
-    font-size: 1.6vw;
-    padding: 1.9vh 4.1vw;
-    border-radius: 10vw;
-    margin-left: 20vw;
-}
-
+   .header ul {
+        gap: 4vw;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+        margin-left: 10vw;
+        width: 80vw;
+        font-size: 2vw;
+        background-color: ghostwhite;
+        border: 3px solid whitesmoke;
+        border-radius: 0vw 0vw 10vw 10vw;
+    }
 .header ul li a {
     text-decoration: none;
     color: rgb(78, 143, 141);
