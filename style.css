@@ -2438,13 +2438,12 @@ footer {
         color: lightseagreen;
     }
 
-
     /* form */
 
     .form {
         border: 2px solid whitesmoke;
-        width: 90vw;
-        margin-left: 1vw;
+        width: 100vw;
+        margin-left: 0vw;
         flex-wrap: wrap;
     }
 
