@@ -1561,7 +1561,15 @@ footer {
 
 
 /* 2 media queries */
-
+@media (max-width:600px){
+ span img {
+        border-radius: 36vw;
+        width: 56vw;
+        height: auto;
+        margin-left: 20vw;
+        margin-top: 80px;
+    }
+}
 @media (max-width:768px) {
 
     .header ul {
@@ -1582,6 +1590,7 @@ footer {
         width: 56vw;
         height: auto;
         margin-left: 20vw;
+        margin-top: 166px;
     }
 
     /* .Para */
@@ -2530,11 +2539,14 @@ footer {
     }
 
 
+  
     span img {
         border-radius: 20vw;
         width: 27vw;
+        margin-top: 100px;
         margin-left: 37.8vw;
     }
+
 
     /* .Para */
 
