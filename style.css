@@ -5274,6 +5274,7 @@ footer {
 .header{
     position: fixed;
 }
+
    .header ul {
         gap: 4vw;
         flex-wrap: wrap;
@@ -9596,19 +9597,21 @@ footer {
 
     position: fixed;
 }
-    .header ul {
+    .header{
+
+    position: fixed;
+}
+  .header ul {
         gap: 4vw;
         flex-wrap: wrap;
         margin-top: 0vh;
-        margin-left: 0vw;
-        width: 100vw;
-        position: sticky;
+        margin-left: 10vw;
+        width: 80vw;
         font-size: 2vw;
         background-color: ghostwhite;
         border: 3px solid whitesmoke;
-        border-radius: 1vw;
+        border-radius: 0vw 0vw 10vw 10vw;
     }
-
     /* span img */
     span img {
         border-radius: 36vw;
@@ -10527,5 +10530,19 @@ footer {
       /* span img */
       span img {
         margin-top: 120px;
+    }
+    .header{
+        position: fixed;
+    }
+      .header ul {
+        gap: 4vw;
+        flex-wrap: wrap;
+        margin-top: 0vh;
+        margin-left: 10vw;
+        width: 80vw;
+        font-size: 2vw;
+        background-color: ghostwhite;
+        border: 3px solid whitesmoke;
+        border-radius: 0vw 0vw 10vw 10vw;
     }
 }
