@@ -2481,7 +2481,7 @@ footer {
 
     .form {
         border: 2px solid whitesmoke;
-        width: 90vw;
+        width: 100vw;
         margin-left: 1vw;
         flex-wrap: wrap;
     }
