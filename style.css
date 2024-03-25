@@ -4334,21 +4334,20 @@ footer {
 @media screen and (min-width: 1280px) {
 
 .header{
-
     position: fixed;
-}
-       .header ul {
+} 
+    .header ul {
         gap: 4vw;
         flex-wrap: wrap;
         margin-top: 0vh;
         margin-left: 10vw;
         width: 80vw;
-        position: sticky;
         font-size: 2vw;
         background-color: ghostwhite;
         border: 3px solid whitesmoke;
         border-radius: 0vw 0vw 10vw 10vw;
     }
+
 
 
     /* span img */
