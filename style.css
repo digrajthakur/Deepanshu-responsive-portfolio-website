@@ -3457,6 +3457,7 @@ footer {
     span img {
         border-radius: 20vw;
         width: 27vw;
+        margin-top: 100px;
         margin-left: 37.8vw;
     }
 
@@ -8720,6 +8721,7 @@ footer {
         border-radius: 20vw;
         width: 27vw;
         margin-left: 37.8vw;
+        margin-top: 100px;
     }
 
     /* .Para */
