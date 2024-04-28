@@ -1554,7 +1554,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#642bff, #ff22e6);
+    background: linear-gradient(#000000, #ff22e6);
     border-radius: 10px;
     
 }
@@ -6827,7 +6827,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#642bff, #ff22e6);
+    background: linear-gradient(#000000, #000000);
     border-radius: 10px;
     
 }
