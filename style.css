@@ -786,7 +786,7 @@ h1 {
 /* right */
 
 .project-9 .right-9 img {
-    width: 28vw;
+    width: 24vw;
     height: auto;
 }
 
@@ -858,9 +858,8 @@ h1 {
 /* right */
 
 .project-10 .right-10 img {
-    width: 28vw;
+    width: 24vw;
     height: auto;
-
     animation: rotate 1s linear infinite;
 }
 
@@ -946,15 +945,11 @@ h1 {
 /* right */
 
 .project-11 .right-11 img {
-    width: 28vw;
+    width: 24vw;
     height: auto;
     animation: animate 1.5s linear infinite;
 }
 
-.project-11 .right-11 img {
-    width: 28vw;
-    height: auto;
-}
 
 @keyframes animate {
     0% {
@@ -969,6 +964,186 @@ h1 {
         transform: scale(1);
     }
 }
+
+/* //project-12 */
+
+
+
+.project-12 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-12 .left-12 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-12 .left-12 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-12 .left-12 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-12 .left-12 .tool-12 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-12 .left-12 .tool-12 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-12 .left-12 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-12 .left-12 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-12 .right-12 img {
+    width: 24vw;
+    height: auto;
+    animation: animate 1.5s linear infinite;
+}
+
+
+
+@keyframes animate {
+    0% {
+        transform: scale(0.6);
+    }
+
+    50% {
+        transform: scale(0.2);
+    }
+
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+
+/* project-13 */
+
+
+.project-13 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-13 .left-13 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-13 .left-13 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-13 .left-13 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-13 .left-13 .tool-13 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-13 .left-13 .tool-13 span {
+
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-13 .left-13 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-13 .left-13 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right */
+
+.project-13 .right-13 img {
+    width: 24vw;
+    height: auto;
+    animation: animate 1.5s linear infinite;
+}
+
+
+
+@keyframes animate {
+    0% {
+        transform: scale(0.6);
+    }
+
+    50% {
+        transform: scale(0.2);
+    }
+
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+
 
 /* skill */
 .skill h3 {
@@ -2384,6 +2559,132 @@ footer {
         height: auto;
         margin-top: 5.1vh;
     }
+
+
+     /* project-12 */
+     .project-12 {
+        width: 94vw;
+        margin-left: 3vw;
+        height: auto;
+    }
+
+    .project-12 .left-12 {
+        margin-left: 0.6vw;
+        width: 49vw;
+    }
+
+    .project-12 .left-12 h2 {
+        width: 89vw;
+        font-size: 6.2vw;
+        margin-top: 2vh;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .project-12 .left-12 p {
+        width: 46vw;
+        font-size: 3.9vw;
+        font-family: serif;
+        font-weight: lighter;
+        margin-top: 1.6vh;
+    }
+
+    .project-12 .left-12 .tool-12 {
+        width: 70vw;
+        font-size: 12vw;
+        font-family: serif;
+        margin-top: 0.1vh;
+        margin-bottom: 2vh;
+    }
+
+    .project-12 .left-12 .tool-12 span {
+        padding: 1vh 1.9vw;
+        font-size: 3.6vw;
+
+    }
+
+    .project-12 .left-12 a span {
+        color: rgb(57, 93, 92);
+        font-size: 4.2vw;
+
+    }
+
+    .project-12 .left-12 a {
+        color: rgb(57, 93, 92);
+        font-size: 3.9vw;
+
+    }
+
+    /* right */
+
+    .project-12 .right-12 img {
+        width: 43.6vw;
+        height: auto;
+        margin-top: 5.1vh;
+    }
+
+ /* project-13 */
+ .project-13 {
+    width: 94vw;
+    margin-left: 3vw;
+    height: auto;
+}
+
+.project-13 .left-13 {
+    margin-left: 0.6vw;
+    width: 49vw;
+}
+
+.project-13 .left-13 h2 {
+    width: 89vw;
+    font-size: 6.2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+.project-13 .left-13 p {
+    width: 46vw;
+    font-size: 3.9vw;
+    font-family: serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-13 .left-13 .tool-13 {
+    width: 70vw;
+    font-size: 12vw;
+    font-family: serif;
+    margin-top: 0.1vh;
+    margin-bottom: 2vh;
+}
+
+.project-13 .left-13 .tool-13 span {
+    padding: 1vh 1.9vw;
+    font-size: 3.6vw;
+
+}
+
+.project-13 .left-13 a span {
+    color: rgb(57, 93, 92);
+    font-size: 4.2vw;
+
+}
+
+.project-13 .left-13 a {
+    color: rgb(57, 93, 92);
+    font-size: 3.9vw;
+
+}
+
+/* right */
+
+.project-13 .right-13 img {
+    width: 43.6vw;
+    height: auto;
+    margin-top: 5.1vh;
+}
+
 
 
     /* skill */
@@ -6302,7 +6603,7 @@ h1 {
     position: relative;
     padding: 2em 0
 }
-
+n
 .vertical-timeline:after {
     content: "";
     display: table;
@@ -8513,6 +8814,7 @@ footer {
         height: auto;
         margin-top: 6.3vh;
     }
+
 
 
     /* project-11 */
