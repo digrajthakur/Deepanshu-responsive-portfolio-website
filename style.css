@@ -1213,6 +1213,76 @@ h1 {
     height: auto;
     animation: animate 1.5s linear infinite;
 }
+/* project-15 */
+
+
+.project-15 {
+    display: flex;
+    border: 2px solid black;
+    width: 58vw;
+    margin-top: 6vh;
+    margin-left: 18vw;
+    height: auto;
+}
+
+.project-15 .left-15 {
+    font-size: 2vw;
+    margin-left: 0.6vw;
+    width: 29vw;
+}
+
+.project-15 .left-15 h2 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.project-15 .left-15 p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-15 .left-15 .tool-15 {
+    width: 25vw;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+
+}
+
+.project-15 .left-15 .tool-15 span {
+    border: 1px solid rgb(36, 36, 36);
+    padding: 0.5vh 1vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.project-15 .left-15 a span {
+    color: rgb(57, 93, 92);
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+
+.project-15 .left-15 a {
+    color: rgb(57, 93, 92);
+    font-size: 1.6vw;
+
+}
+
+/* right-15 */
+
+.project-15 .right-15 img {
+    width: 24vw;
+    height: auto;
+}
+
 
 
 
@@ -8082,7 +8152,68 @@ footer {
         height: auto;
         margin-top: 5.1vh;
     }
+/* project-15 */
 
+ .project-15 {
+    width: 94vw;
+    margin-left: 3vw;
+    height: auto;
+}
+
+.project-15 .left-15 {
+    margin-left: 0.6vw;
+    width: 49vw;
+}
+
+.project-15 .left-15 h2 {
+    width: 89vw;
+    font-size: 6.2vw;
+    margin-top: 2vh;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+.project-15 .left-15 p {
+    width: 46vw;
+    font-size: 3.9vw;
+    font-family: serif;
+    font-weight: lighter;
+    margin-top: 1.6vh;
+}
+
+.project-15 .left-15 .tool-15 {
+    width: 70vw;
+    font-size: 12vw;
+    font-family: serif;
+    margin-top: 0.1vh;
+    margin-bottom: 2vh;
+}
+
+.project-15 .left-15 .tool-15 span {
+    padding: 1vh 1.9vw;
+    font-size: 3.6vw;
+
+}
+
+.project-15 .left-15 a span {
+    color: rgb(57, 93, 92);
+    font-size: 4.2vw;
+
+}
+
+.project-15 .left-15 a {
+    color: rgb(57, 93, 92);
+    font-size: 3.9vw;
+
+}
+
+/* right-15 */
+
+.project-15 .right-15 img {
+    width: 43.6vw;
+    height: auto;
+    margin-top: 5.1vh;
+}
 
     /* skill */
 
