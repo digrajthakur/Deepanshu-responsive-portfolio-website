@@ -1827,6 +1827,7 @@ h1 {
     margin-left: 0vw;
     border-radius: 2vw;
     transition: 0.7s ease;
+    cursor: pointer;
 }
 
 .form .form-1 button:hover {
