@@ -1215,6 +1215,9 @@ h1 {
 }
 /* project-15 */
 
+.project-15 .left-15 .tool-15 span {
+        margin: 0 4px;
+}
 
 .project-15 {
     display: flex;
